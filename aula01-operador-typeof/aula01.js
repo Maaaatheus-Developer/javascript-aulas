@@ -1,10 +1,28 @@
-let v1 = 10;
-let v2 = "10";
-let v3 = v1 === v2;
-let v4 = { nome: "Bruno" };
+/*
+🌟 === AULA 01: OPERADOR TYPEOF === 🌟
 
-console.log("Valor " + v1 + " - Tipo: " + typeof v1);
-console.log("Valor " + v2 + " - Tipo: " + typeof v2);
-console.log("Valor " + v3 + " - Tipo: " + typeof v3);
-console.log("Valor " + v4 + " - Tipo: " + typeof v4);
-console.log("Valor " + v4 + " - Tipo: " + typeof v4.nome);
+🎯 OBJETIVO: Aprender a usar o operador typeof para verificar o tipo de dados de variáveis
+
+📚 CONCEITOS ABORDADOS:
+- 🔍 Operador typeof
+- 📊 Diferentes tipos de dados em JavaScript (number, string, boolean, object)
+- ⚖️ Comparação estrita (===) 
+- 🎯 Acesso a propriedades de objetos
+
+⚙️ FUNCIONAMENTO:
+O operador typeof retorna uma string indicando o tipo do operando.
+Tipos possíveis: "undefined", "boolean", "number", "string", "object", "function", "symbol", "bigint"
+*/
+
+// 📝 === DECLARAÇÃO DE VARIÁVEIS COM DIFERENTES TIPOS ===
+let v1 = 10; // 🔢 Tipo: number (número inteiro)
+let v2 = "10"; // 📝 Tipo: string (texto/string)
+let v3 = v1 === v2; // ✅ Tipo: boolean (resultado da comparação estrita)
+let v4 = { nome: "Bruno" }; // 📦 Tipo: object (objeto com propriedade)
+
+// 🔍 === VERIFICAÇÃO DOS TIPOS USANDO TYPEOF ===
+console.log("Valor " + v1 + " - Tipo: " + typeof v1); // 🔢 number
+console.log("Valor " + v2 + " - Tipo: " + typeof v2); // 📝 string
+console.log("Valor " + v3 + " - Tipo: " + typeof v3); // ✅ boolean (false - 10 !== "10")
+console.log("Valor " + v4 + " - Tipo: " + typeof v4); // 📦 object
+console.log("Valor " + v4 + " - Tipo: " + typeof v4.nome); // 📝 string (propriedade do objeto)

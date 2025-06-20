@@ -1,24 +1,43 @@
-let n = 0;
-let max = 1000;
+/*
+🌟 === AULA 07: BREAK E CONTINUE === 🌟
 
-//✅ Uso com break
+🎯 OBJETIVO: Aprender a controlar o fluxo de loops com break e continue
+
+📚 CONCEITOS ABORDADOS:
+- 🛑 Comando break para interromper loops
+- ⏭️ Comando continue para pular iterações
+- 🔄 Controle de fluxo em loops
+- 🧮 Contagem de números pares
+- ➗ Operador módulo para verificar paridade
+
+⚙️ FUNCIONAMENTO:
+- break: para a execução do loop completamente
+- continue: pula para a próxima iteração do loop
+- Úteis para otimizar performance e controlar lógica
+*/
+
+let n = 0;           // 🔢 Contador inicial
+let max = 1000;      // 🎯 Limite máximo
+
+//✅ Exemplo com break (comentado)
 // while(n< max){
-//     console.log('CFB Cursos - ' + n)
-//     if(n > 8){
-//         break
+//     console.log('CFB Cursos - ' + n)  // 📝 Exibe mensagem
+//     if(n > 8){                        // 🔍 Condição de parada
+//         break                         // 🛑 Sai do loop quando n > 8
 //     }
-//     n++
+//     n++                              // ➕ Incrementa contador
 // }
-// console.log('Fim do programa')
+// console.log('Fim do programa')       // 🏁 Fim do loop
 
-let pares = 0;
+// 🧮 === EXEMPLO COM CONTINUE - CONTAGEM DE NÚMEROS PARES ===
+let pares = 0;       // 📊 Contador de números pares
 
 for (let i = n; i < max; i++) {
-  if (i % 2 !== 0) {
-    continue;
+  if (i % 2 !== 0) {           // 🔍 Se o número é ímpar
+    continue;                  // ⏭️ Pula para próxima iteração
   }
-  pares++;
-
+  pares++;                     // ➕ Incrementa contador de pares
 }
-console.log("Quantidade de números pares: " + pares);
-console.log("Fim do programa");
+
+console.log("Quantidade de números pares: " + pares);  // 📊 Resultado: 500 números pares
+console.log("Fim do programa");                        // 🏁 Fim da execução
