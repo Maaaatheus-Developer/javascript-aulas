@@ -1,15 +1,6 @@
 /*
 🌟 === AULA 07: BREAK E CONTINUE === 🌟
 
-🎯 OBJETIVO: Aprender a controlar o fluxo de loops com break e continue
-
-📚 CONCEITOS ABORDADOS:
-- 🛑 Comando break para interromper loops
-- ⏭️ Comando continue para pular iterações
-- 🔄 Controle de fluxo em loops
-- 🧮 Contagem de números pares
-- ➗ Operador módulo para verificar paridade
-
 ⚙️ FUNCIONAMENTO:
 - break: para a execução do loop completamente
 - continue: pula para a próxima iteração do loop

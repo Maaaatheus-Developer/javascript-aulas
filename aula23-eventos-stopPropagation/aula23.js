@@ -1,15 +1,6 @@
 /*
 🌟 === AULA 23: EVENTOS - stopPropagation === 🌟
 
-🎯 OBJETIVO: Aprender a controlar a propagação de eventos no DOM
-
-📚 CONCEITOS ABORDADOS:
-- 🛑 Método stopPropagation() para parar propagação
-- 🔄 Event bubbling (borbulhamento de eventos)
-- 🎯 Controle de eventos aninhados
-- 🌐 Eventos em elementos pai e filho
-- 🖱️ addEventListener em múltiplos níveis
-
 ⚙️ FUNCIONAMENTO:
 - Event bubbling: eventos sobem da hierarquia (filho → pai)
 - stopPropagation(): impede que evento continue subindo

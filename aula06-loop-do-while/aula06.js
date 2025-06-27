@@ -1,14 +1,6 @@
 /*
 🌟 === AULA 06: LOOP DO...WHILE === 🌟
 
-🎯 OBJETIVO: Entender a diferença entre while e do...while
-
-📚 CONCEITOS ABORDADOS:
-- 🔄 Estrutura do loop do...while
-- 🆚 Diferença entre while e do...while
-- 📊 Execução garantida ao menos uma vez
-- ➕ Operador de incremento (++)
-
 ⚙️ FUNCIONAMENTO:
 - do { código } while (condição) - executa primeiro, verifica depois
 - Diferente do while: executa pelo menos uma vez, mesmo se condição for falsa

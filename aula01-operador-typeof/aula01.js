@@ -1,14 +1,6 @@
 /*
 🌟 === AULA 01: OPERADOR TYPEOF === 🌟
 
-🎯 OBJETIVO: Aprender a usar o operador typeof para verificar o tipo de dados de variáveis
-
-📚 CONCEITOS ABORDADOS:
-- 🔍 Operador typeof
-- 📊 Diferentes tipos de dados em JavaScript (number, string, boolean, object)
-- ⚖️ Comparação estrita (===) 
-- 🎯 Acesso a propriedades de objetos
-
 ⚙️ FUNCIONAMENTO:
 O operador typeof retorna uma string indicando o tipo do operando.
 Tipos possíveis: "undefined", "boolean", "number", "string", "object", "function", "symbol", "bigint"

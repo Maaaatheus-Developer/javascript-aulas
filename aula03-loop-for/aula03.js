@@ -1,15 +1,6 @@
 /*
 🌟 === AULA 03: LOOP FOR === 🌟
 
-🎯 OBJETIVO: Aprender a estrutura básica do loop for e condicionais
-
-📚 CONCEITOS ABORDADOS:
-- 🔄 Estrutura do loop for (inicialização; condição; incremento)
-- ➗ Operador módulo (%) para verificar números pares/ímpares
-- 🔀 Estrutura condicional if/else
-- 📝 Template literals (backticks) para interpolação de strings
-- ⚖️ Comparação com operador == (igualdade)
-
 ⚙️ FUNCIONAMENTO:
 - for (inicialização; condição; incremento)
 - let i = 0: inicializa contador em 0

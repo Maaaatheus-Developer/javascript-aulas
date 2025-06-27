@@ -1,15 +1,6 @@
 /*
 🌟 === AULA 04: FOR...IN E FOR...OF === 🌟
 
-🎯 OBJETIVO: Comparar diferentes tipos de loops para iterar sobre arrays
-
-📚 CONCEITOS ABORDADOS:
-- 🔄 Loop for tradicional com índices
-- 🔑 Loop for...in (itera sobre índices/chaves)
-- 💎 Loop for...of (itera sobre valores)
-- 🆚 Diferenças entre os tipos de loops
-- 💡 Quando usar cada tipo
-
 ⚙️ FUNCIONAMENTO:
 - for tradicional: acessa elemento por índice num[i]
 - for...in: 'n' representa o índice/chave do elemento

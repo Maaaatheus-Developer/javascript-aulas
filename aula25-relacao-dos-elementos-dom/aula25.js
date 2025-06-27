@@ -1,17 +1,6 @@
 /*
 🌟 === AULA 25: RELAÇÃO DOS ELEMENTOS DOM === 🌟
 
-🎯 OBJETIVO: Aprender a navegar pela árvore DOM usando relações entre elementos
-
-📚 CONCEITOS ABORDADOS:
-- 🔗 Navegação entre elementos pais e filhos no DOM
-- 👆 Propriedade parentNode para acessar elemento pai
-- 👶 Propriedade children para acessar elementos filhos
-- ✅ Método hasChildNodes() para verificar se há filhos
-- 🆚 Propriedade childNodes vs children
-- 🥇 Propriedade firstElementChild
-- ✏️ Modificação de innerHTML através de navegação DOM
-
 ⚙️ FUNCIONAMENTO:
 - parentNode: retorna o elemento pai
 - children: retorna HTMLCollection dos elementos filhos

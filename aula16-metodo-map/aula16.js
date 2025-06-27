@@ -1,16 +1,6 @@
 /*
 🌟 === AULA 16: MÉTODO MAP === 🌟
 
-🎯 OBJETIVO: Aprender a usar o método map() para transformar arrays
-
-📚 CONCEITOS ABORDADOS:
-- 🗺️ Método map() para transformação de arrays
-- ➡️ Arrow functions como parâmetros
-- 🔄 Conversão de tipos (string para number)
-- 🌐 Uso com elementos DOM
-- 📋 Iteração com índices
-- 🎨 Criação de HTML com map()
-
 ⚙️ FUNCIONAMENTO:
 - array.map(função) - aplica função a cada elemento
 - Retorna novo array com elementos transformados

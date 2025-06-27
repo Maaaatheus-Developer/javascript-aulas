@@ -1,15 +1,6 @@
 /*
 🌟 === AULA 08: INTRODUÇÃO ÀS FUNÇÕES === 🌟
 
-🎯 OBJETIVO: Aprender o conceito básico de funções em JavaScript
-
-📚 CONCEITOS ABORDADOS:
-- ⚡ Declaração de função com palavra-chave 'function'
-- 🌐 Manipulação do DOM dentro de funções
-- 🎯 getElementById() para selecionar elementos
-- ✏️ Propriedade innerHTML para modificar conteúdo
-- 🔄 Reutilização de código através de funções
-
 ⚙️ FUNCIONAMENTO:
 - function nomeFuncao() { código } - declara uma função
 - Função é executada apenas quando chamada

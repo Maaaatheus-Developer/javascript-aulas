@@ -1,15 +1,6 @@
 /*
 🌟 === AULA 09: FUNÇÕES COM PARÂMETROS === 🌟
 
-🎯 OBJETIVO: Aprender a criar funções que recebem parâmetros
-
-📚 CONCEITOS ABORDADOS:
-- ⚡ Funções com valores internos (sem parâmetros)
-- 🔄 Retorno de valores com return
-- 🔀 Estruturas condicionais dentro de funções
-- ➗ Operações matemáticas e verificação de paridade
-- 📊 Armazenamento do resultado de funções
-
 ⚙️ FUNCIONAMENTO:
 - function nome() { código } - função sem parâmetros
 - return valor - retorna resultado da função

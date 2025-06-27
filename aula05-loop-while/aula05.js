@@ -1,15 +1,6 @@
 /*
 🌟 === AULA 05: LOOP WHILE === 🌟
 
-🎯 OBJETIVO: Aprender a estrutura do loop while e aplicar em cálculo de fatorial
-
-📚 CONCEITOS ABORDADOS:
-- 🔄 Estrutura do loop while (condição)
-- 🆚 Diferença entre while e for
-- 🧮 Cálculo de fatorial
-- ➖ Operador de decremento (--)
-- ⚠️ Importância de modificar a variável de controle
-
 ⚙️ FUNCIONAMENTO:
 - while (condição): executa enquanto condição for verdadeira
 - Necessário modificar variável de controle dentro do loop
