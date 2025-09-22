@@ -33,6 +33,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 
 label {
@@ -54,6 +55,7 @@ label {
   background-color: #800 !important;
   color: #fcc !important;
   border-color: #f00 !important;
+  cursor: pointer;
 }
 
 /* .c1 {
