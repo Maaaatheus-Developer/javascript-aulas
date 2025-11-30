@@ -20,23 +20,30 @@ computador.mouse = "Mouse Gamer"; // Adicionando nova propriedade dentro do obje
 delete computador.armazenamento;
 // console.log(computador);
 
+//--------------------------------------------------------------------------------------------
+// Cópia de objetos
 const c1 = Object.assign({}, computador); //  Cria uma cópia do objeto computador e atribui a c1, assim ele consegue modificar sem alterar o original
-c1.info();
+// c1.info();
+//--------------------------------------------------------------------------------------------
 
+//--------------------------------------------------------------------------------------------
+// Criando um novo objeto c2 baseado no protótipo do objeto computador
 const c2 = Object.create(computador);
-
 c2.cpu = "Intel Core i9";
 c2.ram = "32GB";
-c2.armazenamento = "1TB SSD";
-
+c2.armazenamento = "500 GB SSD";
 c2.info();
+//--------------------------------------------------------------------------------------------
 
+// --------------------------------------------------------------------------------------------
 const o1 = { obj1: "12" };
 const o2 = { obj2: "2" };
 const o3 = { obj3: "3" };
 const o4 = Object.assign(o1, o2, o3); // Une os três objetos em um único objeto o4, assim o assign obtem todas as propriedades dos objetos passados como argumentos
 // console.log(o4);
+// --------------------------------------------------------------------------------------------
 
+//---------------------------------------------------------------------------------------------
 // Array de objetos computadores
 const computadores = [
   {
@@ -55,7 +62,9 @@ const computadores = [
     armazenamento: "512GB SSD",
   },
 ];
+//----------------------------------------------------------------------------------------------
 
+//----------------------------------------------------------------------------------------------
 // Percorrendo o array de objetos computadores e exibindo suas informações na tela do html, dentro da div objetos
 computadores.forEach((c) => {
   const div = document.createElement("div");
@@ -63,6 +72,7 @@ computadores.forEach((c) => {
   div.setAttribute("class", "computador");
   objetos.appendChild(div);
 });
+//----------------------------------------------------------------------------------------------
 
 // computador.info();
 // console.log(computadores);
